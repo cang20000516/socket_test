@@ -21,7 +21,7 @@ int main()
    while(1)
    {
      char buff[128]={0};
-     printf("input:\n");
+     printf("input(type 'end' to close):\n");
      fgets(buff,128,stdin);
      if(strncmp(buff,"end",3)==0)
      {
